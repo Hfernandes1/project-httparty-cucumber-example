@@ -24,3 +24,9 @@ Funcionalidade: Pesquisar Funcionário
     Dado que o usuario altere a informacao de um funcionario
     Quando ele enviar as informacoes do funcionario
     Entao as informacoes serao alteradas
+
+@deletar
+    Cenario: Deletar um funcionario
+    Dado que o usuario deseje deletar um funcionario
+    Quando ele enviar as informacoes do funcionario
+    Entao esse funcionario será deletado do sistema
